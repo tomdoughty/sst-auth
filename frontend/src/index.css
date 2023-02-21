@@ -1,0 +1,163 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 18px;
+  /* background-image: linear-gradient(#212c39, #121e3d 50%, #000); */
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+p {
+  margin-bottom: 20px;
+}
+
+.content-wrapper {
+  max-width: 1200px;
+  margin: auto;
+  background-color: #fff;
+  background-color: #333;
+}
+
+.content-wrapper:after {
+  content: "";
+  display: table;
+  width: 100%;
+}
+
+.content {
+  padding: 20px;
+  float: left;
+  width: 100%;
+  margin: auto;
+  background-color: #fff;
+}
+
+.content ul {
+  margin-left: 20px;
+}
+
+.content ul li {
+  margin-bottom: 10px;
+}
+
+.hero {
+  padding: 100px 20px;
+  background-color: #eee;
+}
+
+dt,
+dd {
+  display: inline-block;
+  width: 50%;
+  border-bottom: solid 1px #ccc;
+  color: #b3b3b3;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+dd {
+  color: #333;
+}
+
+.header-container {
+  background-color: #000;
+}
+
+header {
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px;
+}
+
+header:after {
+  content: "";
+  display: table;
+  width: 100%;
+}
+
+.header-left {
+  float: left;
+}
+
+.header-left a {
+  display: block;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.header-left a:hover {
+  text-decoration: underline;
+}
+
+.header-right {
+  float: right;
+}
+
+.header-right ul {
+  list-style: none;
+}
+
+.header-right ul li {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+.header-right ul li button,
+.header-right ul li a {
+  display: block;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 700;
+  border: none;
+  background-color: transparent;
+  font-size: inherit;
+}
+
+.header-right ul li button:hover,
+.header-right ul li a:hover {
+  text-decoration: underline;
+}
+
+.content button {
+  font-size: inherit;
+  padding: 10px;
+}
+
+table,
+th,
+td {
+  border: solid 1px #333;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 5px;
+  text-align: left;
+}
+
+.loading {
+  text-align: center;
+}
+
+.loading span {
+  margin-top: 200px;
+}
